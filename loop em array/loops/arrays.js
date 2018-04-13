@@ -1,26 +1,27 @@
 function doubleNumber(array){
-  //TO DO
+  return array.map(value => value *2)
 }
 
 function ftEven(array) {
-  //TO DO
+  return array.filter(value => value % 2 === 0)
 }
 
 function ftOdd(array) {
-  //TO DO
+  return array.filter(value => value % 2 !== 0)
 }
 
 function sumArray(array) {
-  //TO DO
+  return array.reduce((total, value) => total + value)
 }
 
 function mtArray(array) {
-  //TO DO
+  return array.reduce((total, value) => total * value)
 }
 
 function findNumber(array) {
-  //TO DO
+  return array.find(element => element % 2 == 0)
 }
+
 
 module.exports = {
   doubleNumber,
