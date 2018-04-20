@@ -3,7 +3,7 @@ const stringsFunctions = require('./string')
 describe('Strings Tests:', () => {
 
     test("Greetings Pah!", () => {
-        expect(stringsFunctions.helloString('Pah').toEqual('Hello Pah.'));
+        expect(stringsFunctions.helloString('Pah')).toEqual('Hello Pah.');
     });
 
     test.skip("Lowercase strings are equals?", () => {
