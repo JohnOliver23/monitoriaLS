@@ -15,7 +15,7 @@ describe('Strings Tests:', () => {
     });
 
     test.skip("What about a real string?", () => {
-        expect(stringsFunctions.equalStrings('JavaScript is awesome', 'javascript is AWESOME').toEqual(true));
+        expect(stringsFunctions.equalStrings('JavaScript is awesome', 'javascript is AWESOME')).toEqual(true);
     });
 
     test.skip("Counting words it is easier than counting stars!", () => {
