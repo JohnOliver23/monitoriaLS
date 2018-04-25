@@ -57,21 +57,21 @@ describe('Comics Tool', () => {
     ])
   })
 
-  it('listing names by Marvel comics', () => {
+  xit('listing names by Marvel comics', () => {
     expect(comics.namesByComics(characters, 'Marvel')).toEqual([
       'Hulk',
       'Spider-Man'
     ])
   })
 
-  it('sorting top weight by Marvel comics', () => {
+  xit('sorting top weight by Marvel comics', () => {
     expect(comics.topWeightNames(characters, 'Marvel')).toEqual([
       'Hulk',
       'Spider-Man'
     ])
   })
 
-  it('sorting top weight', () => {
+  xit('sorting top weight', () => {
     expect(comics.topWeightNames(characters)).toEqual([
       'Hulk',
       'Superman',
@@ -80,11 +80,11 @@ describe('Comics Tool', () => {
     ])
   })
 
-  it('weighing by DC comics', () => { 
+  xit('weighing by DC comics', () => { 
     expect(comics.weight(characters, 'DC')).toBe(101)
   })
 
-  it('weighing by Marvel comics', () => {
+  xit('weighing by Marvel comics', () => {
     expect(comics.weight(characters, 'Marvel')).toBe(355.5)
   })
 
