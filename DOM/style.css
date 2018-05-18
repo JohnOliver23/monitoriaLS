@@ -1,0 +1,17 @@
+body {
+   height: 100vh;
+   width: 100%;
+}
+
+.main {
+   padding: 5%;
+   height: 100%;
+}
+
+.row {
+   margin: 5%;
+}
+
+.number-inputs {
+   width: 200px;
+}
